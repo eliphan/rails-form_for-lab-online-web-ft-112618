@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'students/:id/edit', to: 'students#edit', as: :edit_student
   patch 'students/:id/', to: 'students#update'
   get 'school_classes/:id/edit', to: 'school_classes#edit', as: :edit_school_class
-  patch 'students/:id/', to: 'students#update'
+  patch 'school_classes/:id/', to: 'students#update'
 end
