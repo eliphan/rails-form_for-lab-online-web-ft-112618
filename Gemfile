@@ -27,7 +27,8 @@ group :development, :test do
   gem 'byebug'
   gem 'spring'
   gem 'rspec-rails'
-  gem 'factory_bot_rails'
+  gem 'factory_bot', '~> 4.8.2' #Add ths line entirely
+  gem 'factory_bot_rails', '~> 4.8.2' #And edit this line to include the version constraint
   gem 'capybara'
   gem 'database_cleaner'
 end
